@@ -1,1 +1,156 @@
+/* ===== General ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f9f7;
+    color: #1f2933;
+    line-height: 1.6;
+}
+
+/* ===== Header ===== */
+header {
+    background: #123c32;
+    color: white;
+    padding: 25px 8%;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+/* ===== Navigation ===== */
+nav {
+    background: #0d2f28;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Sections ===== */
+section {
+    padding: 60px 8%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+section h2 {
+    color: #123c32;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+    text-align: center;
+    padding: 90px 8%;
+    background: #e3f1eb;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: auto;
+}
+
+/* ===== Cards ===== */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+    color: #176b55;
+    margin-bottom: 10px;
+}
+
+/* ===== Skills ===== */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span {
+    background: #d5ebe2;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+/* ===== Roadmap ===== */
+.roadmap {
+    border-left: 3px solid #176b55;
+    padding-left: 25px;
+}
+
+.roadmap-item {
+    margin-bottom: 25px;
+}
+
+.roadmap-item h3 {
+    color: #176b55;
+}
+
+/* ===== Footer ===== */
+footer {
+    background: #123c32;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    section {
+        padding: 40px 6%;
+    }
+  }
+<link rel="stylesheet" href="style.css">
